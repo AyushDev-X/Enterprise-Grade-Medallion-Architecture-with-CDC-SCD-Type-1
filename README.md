@@ -46,20 +46,33 @@ PySpark | SQL | Delta Lake | Auto Loader | Delta Live Tables (DLT) | Structured 
 
 # 🗂️ Folder Structure
 
-  📁 rawvolume
-  ├── 📁 Airports
-  │   ├── raw.csv
-  │   ├── incremental.csv
-  │   └── scd.csv
-  ├── 📁 Flights
-  ├── 📁 Customers
-  └── 📁 Bookings
+  ```
+📁 rawvolume/
+├── 📁 Airports/
+│   ├── raw.csv               
+│   ├── incremental.csv       
+│   └── scd.csv               
+├── 📁 Flights/
+│   ├── raw.csv
+│   ├── incremental.csv
+│   └── scd.csv
+├── 📁 Customers/
+│   ├── raw.csv
+│   ├── incremental.csv
+│   └── scd.csv
+└── 📁 Bookings/
+    ├── raw.csv
+    ├── incremental.csv
+    └── scd.csv
+```
 
 Each folder contains:
 
+  ```
   raw.csv → Historical data
   incremental.csv → New incoming records
   scd.csv → Records with updated dimensions for SCD1 handling
+  ```
 
 # 🔧 Key Features
 
