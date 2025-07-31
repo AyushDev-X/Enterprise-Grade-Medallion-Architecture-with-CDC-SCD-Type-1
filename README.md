@@ -1,0 +1,1 @@
+# Enterprise-Grade-Medallion-Architecture-with-CDC-SCD-Type-1
