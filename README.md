@@ -2,6 +2,10 @@
 
 This project demonstrates a modular and dynamic data pipeline built on Azure Databricks, using the Medallion Architecture (Bronze → Silver → Gold). It supports ingestion of raw, incremental, and SCD Type 1 data, featuring streaming with Auto Loader, Delta Live Tables (DLT) for transformations, Change Data Capture (CDC) handling, and surrogate key generation.
 
+## 📊 Data Pipeline Flow
+
+![Data Flow Diagram](./Data_Flow_Diagram/pipeline.png)
+
 # 🧠 Project Highlights:
 
 - Modular Medallion Architecture: Structured the pipeline into Bronze, Silver, and Gold layers for clean separation of raw, refined, and curated data.
