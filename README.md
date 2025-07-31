@@ -18,30 +18,27 @@ This project demonstrates a modular and dynamic data pipeline built on Azure Dat
 
 📁 Project Structure
 
-  Databricks-Medallion-Pipeline/
-  │
-  ├── 📂 rawvolume/                  
-  │   ├── Airports/
-  │   ├── Flights/
-  │   ├── Customers/
-  │   └── Bookings/
-  │
-  ├── 📂 notebooks/
-  │   ├── 01_Bronze_AutoLoader.py    
-  │   ├── 02_Silver_DLT.py           
-  │   ├── 03_Gold_DLT_CDC.py         
-  │   └── utils.py                   
-  │
-  ├── 📂 volumes/
-  │   ├── bronzevolume/
-  │   ├── silvervolume/
-  │   └── goldvolume/
-  │
-  ├── 📂 diagrams/
-  │   └── databricks_pipeline.png   
-  │
-  ├── README.md
-  └── requirements.txt              
+  ```
+📁 Databricks-Medallion-Pipeline/
+├── 📂 rawvolume/
+│   ├── 📂 Airports/
+│   ├── 📂 Flights/
+│   ├── 📂 Customers/
+│   └── 📂 Bookings/
+├── 📂 notebooks/
+│   ├── 01_Bronze_AutoLoader.py
+│   ├── 02_Silver_DLT.py
+│   ├── 03_Gold_DLT_CDC.py
+│   └── utils.py
+├── 📂 volumes/
+│   ├── 📂 bronzevolume/
+│   ├── 📂 silvervolume/
+│   └── 📂 goldvolume/
+├── 📂 diagrams/
+│   └── databricks_pipeline.png
+├── README.md
+└── requirements.txt
+```     
 
 # ⚙️ Tech Stack & Tools
 
