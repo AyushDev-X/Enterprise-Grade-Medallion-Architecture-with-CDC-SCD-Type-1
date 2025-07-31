@@ -68,11 +68,10 @@ PySpark | SQL | Delta Lake | Auto Loader | Delta Live Tables (DLT) | Structured 
 
 Each folder contains:
 
-  ```
-  raw.csv → Historical data
-  incremental.csv → New incoming records
-  scd.csv → Records with updated dimensions for SCD1 handling
-  ```
+  - raw.csv → Historical data
+  - incremental.csv → New incoming records
+  - scd.csv → Records with updated dimensions for SCD1 handling
+  
 
 # 🔧 Key Features
 
