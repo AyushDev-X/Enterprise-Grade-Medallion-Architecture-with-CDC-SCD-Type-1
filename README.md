@@ -20,17 +20,17 @@ This project demonstrates a modular and dynamic data pipeline built on Azure Dat
 
   Databricks-Medallion-Pipeline/
   │
-  ├── 📂 rawvolume/                  # Contains raw CSV files (base, incremental, SCD1 test)
+  ├── 📂 rawvolume/                  
   │   ├── Airports/
   │   ├── Flights/
   │   ├── Customers/
   │   └── Bookings/
   │
   ├── 📂 notebooks/
-  │   ├── 01_Bronze_AutoLoader.py    # Streaming ingestion to Bronze using Auto Loader
-  │   ├── 02_Silver_DLT.py           # DLT notebook to clean/transform data into Silver
-  │   ├── 03_Gold_DLT_CDC.py         # Handles CDC & SCD1 to produce Gold tables
-  │   └── utils.py                   # Common helper functions (e.g., surrogate key gen)
+  │   ├── 01_Bronze_AutoLoader.py    
+  │   ├── 02_Silver_DLT.py           
+  │   ├── 03_Gold_DLT_CDC.py         
+  │   └── utils.py                   
   │
   ├── 📂 volumes/
   │   ├── bronzevolume/
@@ -38,10 +38,10 @@ This project demonstrates a modular and dynamic data pipeline built on Azure Dat
   │   └── goldvolume/
   │
   ├── 📂 diagrams/
-  │   └── databricks_pipeline.png   # Data flow diagram
+  │   └── databricks_pipeline.png   
   │
   ├── README.md
-  └── requirements.txt              # Databricks runtime and cluster config
+  └── requirements.txt              
 
 # ⚙️ Tech Stack & Tools
 
@@ -60,9 +60,9 @@ PySpark | SQL | Delta Lake | Auto Loader | Delta Live Tables (DLT) | Structured 
 
 Each folder contains:
 
-raw.csv → Historical data
-incremental.csv → New incoming records
-scd.csv → Records with updated dimensions for SCD1 handling
+  raw.csv → Historical data
+  incremental.csv → New incoming records
+  scd.csv → Records with updated dimensions for SCD1 handling
 
 # 🔧 Key Features
 
